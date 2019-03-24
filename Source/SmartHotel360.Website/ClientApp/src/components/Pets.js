@@ -38,7 +38,7 @@ class Pets extends Component {
                 </div>
             </div>
             <div className='sh-pets-margin'></div>
-            <h2 className='sh-pets-subtitle'>Do you want to know if your pet can accompany you?</h2>
+            <h2 className='sh-pets-subtitle'>Do you want to know if your pet(s) can accompany you?</h2>
 
             <section className={'sh-uploader ' + (this.props.isThinking || this.props.isUploading ? 'is-loading' : 'is-empty') + ' ' + (this.props.approved === true ? 'is-ok' : '') + ' ' + (this.props.approved === false ? 'is-bad' : '')}
                      onClick={this.onClickUploader}>
